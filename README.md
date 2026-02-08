@@ -34,12 +34,14 @@ Analysis Approach
 
 The analysis was conducted step by step using Python andfocused on clarity and interpretation rather than complex modeling.
 
-1. Data Cleaning & Preparation
+1  Data Cleaning & Preparation
+
 	•	Reviewed data types and missing values
 	•	Ensured numeric features were correctly formatted
 	•	Prepared variables for analysis and visualization
 
-2. Exploratory Data Analysis
+2 Exploratory Data Analysis
+   
 	•	Univariate analysis: distribution of average airfare
 	•	Bivariate analysis: distance vs fare, passengers vs fare
 	•	Multivariate analysis: distance, fare, and seasonality together
