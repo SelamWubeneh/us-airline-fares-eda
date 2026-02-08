@@ -10,6 +10,7 @@ explain why fares vary and how pricing behavior changes over time.
 
 
 Objectives
+
 	•	Understand the distribution and behavior of airline fares
 	•	Analyze the relationship between flight distance and airfare
 	•	Identify seasonal pricing patterns across quarters
@@ -18,6 +19,7 @@ Objectives
 
 
 Dataset
+
 	•	Source: US Airline Flight Routes and Fares (1993–2024)
 	•	Key Variables:
 	•	fare – average ticket price
@@ -33,11 +35,13 @@ Analysis Approach
 The analysis was conducted step by step using Python andfocused on clarity and interpretation rather than complex modeling.
 
 1. Data Cleaning & Preparation
+   
 	•	Reviewed data types and missing values
 	•	Ensured numeric features were correctly formatted
 	•	Prepared variables for analysis and visualization
 
-2. Exploratory Data Analysis
+3. Exploratory Data Analysis
+   
 	•	Univariate analysis: distribution of average airfare
 	•	Bivariate analysis: distance vs fare, passengers vs fare
 	•	Multivariate analysis: distance, fare, and seasonality together
@@ -47,6 +51,7 @@ The analysis was conducted step by step using Python andfocused on clarity and i
 
 
 Key Findings
+
 	•	Flight distance is the strongest driver of airfare. Longer routes generally have higher fares due to fuel, time, and operational costs.
 	•	Clear seasonal pricing patterns exist. Certain quarters consistently show higher average fares, reflecting peak travel periods.
 	•	Average airfare has increased over time, indicating long-term changes in pricing behavior.
@@ -55,6 +60,7 @@ Key Findings
 
 
 Business Implications
+
 	•	Airlines can use distance and seasonality as key inputs for pricing strategies.
 	•	Seasonal trends can support better capacity planning and promotions.
 	•	Understanding long-term pricing trends helps with forecasting and strategic decision-making.
@@ -62,16 +68,19 @@ Business Implications
 
 
 Limitations
+
 	•	The dataset does not include external factors such as fuel prices, airline mergers, or macroeconomic indicators.
 	•	Some carrier-specific details are not available, limiting deeper competitive analysis.
 
 
 Next Steps
+
 	•	Incorporate external data (fuel costs, inflation, economic indicators)
 	•	Build predictive models to estimate airfare
 	•	Expand analysis to include competitive market dynamics
 
 Tools Used
+
 	•	Python (Pandas, NumPy)
 	•	Matplotlib & Seaborn
 	•	Jupyter Notebook
